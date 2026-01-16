@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>КанцПарк — Header</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__city">
+          <span class="ico ico--pin" aria-hidden="true"></span>
+          Махачкала
+        </span>
+      </div>
+
+      <nav class="topbar__nav" aria-label="Верхнее меню">
+        <a class="topbar__link" href="#">Магазины</a>
+        <a class="topbar__link" href="#">
+          Покупателям <span class="caret" aria-hidden="true">▾</span>
+        </a>
+        <a class="topbar__link" href="#">
+          Юридическим лицам <span class="caret" aria-hidden="true">▾</span>
+        </a>
+      </nav>
+
+      <div class="topbar__right">
+        <a class="topbar__phone" href="tel:88009999999">8-800-999-99-99</a>
+        <span class="topbar__time">(с 03:00 до 22:00)</span>
+      </div>
+    </div>
+  </div>
+  <div class="mainbar">
+    <div class="container mainbar__inner">
+      <a class="logo" href="#" aria-label="КанцПарк">
+        КанцПарк
+      </a>
+
+      <form class="search" action="#" role="search">
+        <input class="search__input" type="search" placeholder="Быстрый поиск" />
+        <button class="search__btn" type="submit" aria-label="Поиск">
+          <span class="ico ico--search" aria-hidden="true"></span>
+        </button>
+      </form>
+
+      <div class="actions">
+        <a class="action" href="#">
+          <span class="ico ico--heart" aria-hidden="true"></span>
+          <span class="action__text">Избранное</span>
+          <span class="badge">3</span>
+        </a>
+
+        <a class="action" href="#">
+          <span class="ico ico--compare" aria-hidden="true"></span>
+          <span class="action__text">Сравнить</span>
+        </a>
+
+        <a class="action" href="#">
+          <span class="ico ico--cart" aria-hidden="true"></span>
+          <span class="action__text">Корзина</span>
+          <span class="badge">7</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="navbar">
+    <div class="container navbar__inner">
+      <button class="catalog" type="button">
+        <span class="burger" aria-hidden="true"></span>
+        Каталог
+      </button>
+
+      <nav class="nav" aria-label="Категории">
+        <a class="nav__link" href="#">
+          <span class="nav__ico nav__ico--doc" aria-hidden="true"></span>
+          Бумажная продукция
+        </a>
+        <a class="nav__link" href="#">
+          <span class="nav__ico nav__ico--bag" aria-hidden="true"></span>
+          Товары для школы
+        </a>
+        <a class="nav__link" href="#">
+          <span class="nav__ico nav__ico--art" aria-hidden="true"></span>
+          Товары для творчества
+        </a>
+        <a class="nav__link" href="#">
+          <span class="nav__ico nav__ico--store" aria-hidden="true"></span>
+          Товары для торговли
+        </a>
+        <a class="nav__link nav__link--sale" href="#">
+          <span class="nav__ico nav__ico--sale" aria-hidden="true"></span>
+          Скидки и акции
+        </a>
+      </nav>
+    </div>
+  </div>
+</header>
+</body>
+</html>
